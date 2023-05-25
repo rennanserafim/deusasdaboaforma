@@ -1,0 +1,40 @@
+.fundoTop{
+  padding-top: 2rem;
+  width: 100%;
+  background: rgb(88,220,164);
+background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%);
+  
+}
+
+.tituloTop{
+  color: white;
+  text-align: center;
+}
+
+.subtituloTop{
+  text-align: center;
+
+}
+
+.imgTop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (max-width: 800px) {
+  .imgTop {
+    height: auto;
+    justify-content: center;
+  }
+  .imgTopDiv{
+    width: 20rem;
+    height: auto;
+    justify-content: center;  
+  }
+  .subtituloTop {
+    padding: 0.75rem;
+    display: flex;
+    text-align: center;
+  }
+}

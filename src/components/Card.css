@@ -1,0 +1,40 @@
+
+.card {
+
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1.25rem 0 1.25rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0.75rem;
+    text-align: center;
+    max-width: 8rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+  
+  .card-img {
+
+    width: 2.5rem;
+    height: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .card-subtitulo {
+    display: flex;  
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card-texto {
+ 
+    font-size:0.75rem;
+    color: #555;
+    justify-content: center
+  }

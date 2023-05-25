@@ -1,0 +1,8 @@
+.accordionDiv{
+    max-width: 500px;
+}
+.contentAccordion{
+    display: flex;
+    text-align:left;
+
+}

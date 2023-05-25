@@ -1,0 +1,72 @@
+.fundoDepoimentos{
+  width: 100%;
+  background:#FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  left: calc(50% - 100%/2);
+
+
+
+
+}
+
+.espaco{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+.tituloDepoimentos{
+  display: flex;
+  color: #2C6E49  ;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+
+
+
+  
+}
+
+.subtituloDepoimentos{
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+@media (max-width: 800px) {
+  .fundoOquee {
+    display: flex;
+    flex-direction: column; /* Altera o fluxo de layout para linha */
+    justify-content: center;
+  }
+  .tituloOquee {
+    padding-top: 2rem;
+    display: flex;
+    margin: 1.25rem;
+    text-align: center;
+  }
+  .textoOquee{
+    display: flex;
+    margin: 1.25rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+  }
+}

@@ -1,0 +1,53 @@
+.fundoBonus{
+  width: 100%;
+  background:#444444;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  left: calc(50% - 100%/2);
+
+
+
+
+}
+
+
+.tituloBonus{
+  display: flex;
+  color: #FFFFFF  ;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+
+
+
+  
+}
+
+.subtituloBonus{
+  display: flex;
+  color: #FFFFFF;
+  padding: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+@media (max-width: 800px) {
+  .fundoBonus {
+    display: flex;
+    flex-direction: column; /* Altera o fluxo de layout para linha */
+    justify-content: center;
+  }
+  .tituloBonus {
+    padding-top: 2rem;
+    display: flex;
+    margin: 1.25rem;
+    text-align: center;
+  }
+
+}

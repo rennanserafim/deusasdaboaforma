@@ -1,0 +1,12 @@
+.fundoFaq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem ;
+  flex-wrap: wrap;
+  
+}
+.component{
+  padding: 5rem;
+  text-align: center;
+}
