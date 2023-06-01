@@ -6,6 +6,7 @@ import Bonus from './parts/Bonus/Bonus';
 import Depoimentos from './parts/Depoimentos/Depoimentos';
 import Faq from './parts/Faq/Faq';
 import Finish from './parts/Finish/Finish';
+import Garantias from './parts/Garantias/Garantias';
 
 import Imc from './parts/Imc/Imc';
 import Motivos from './parts/Motivos/Motivos';
@@ -25,9 +26,11 @@ function App() {
   <Countdown/>
   <Imc/>
   <Depoimentos/>
+  <Garantias/>
   <Bonus/>
   <Faq/>
   <Finish/>
+  
 
 
 

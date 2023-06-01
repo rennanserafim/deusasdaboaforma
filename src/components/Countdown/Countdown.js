@@ -55,7 +55,7 @@ function Countdown() {
         {visible && (
           <>
             <p>As condições exclusivas encerram em: {remainingTime}</p>
-            {remainingTime !== 'Promoção encerrada' && <Button />}
+            {remainingTime !== 'Promoção encerrada' && <Button  text='Comprar agora!'/>}
           </>
         )}
       </div>

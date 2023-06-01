@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Button.css';
 
-function Button() {
+function Button({text}) {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function Button() {
 
   return (
     <button className={`queroEmagrecerAgora ${showButton ? 'visible' : ''}`}>
-      ✔ QUERO EMAGRECER AGORA!
+      ✔ {text}
     </button>
   );
 }

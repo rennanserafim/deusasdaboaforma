@@ -7,24 +7,33 @@
 .valorBonusCard{
   color: white;
 }
+.valorBonusCard span{
+    text-decoration: line-through;
+    text-decoration-style:solid;
+    /* text-decoration-color: aqua; */
+  
+  }
 
 .imagemCard{
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  width: 50px;
+  align-items: center; 
+  justify-content: center; 
   height: 50px;
+  width:auto;
   text-align: center;
 }
 .fundoBonusCard{
- 
+ display: flex; 
   margin: 2rem;
+}
+.containerBonusCardText{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
 }
 .containerBonusCard{
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  width: 50px;
-  height: 50px;
+  align-items: center;
+  justify-content: center; 
   text-align: center;
 }

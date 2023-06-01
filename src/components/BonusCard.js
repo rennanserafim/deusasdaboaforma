@@ -1,7 +1,7 @@
 
 import './BonusCard.css';
 
-function  BonusCard({imagem,titulo,subtitulo,valor}) {
+function  BonusCard({imagem,titulo,desconto,subtitulo,valor}) {
   return(
     <>
     <div className='fundoBonusCard'>
@@ -9,10 +9,11 @@ function  BonusCard({imagem,titulo,subtitulo,valor}) {
 
       <img src={imagem}  className='imagemCard'></img>
     </div>
-   
+   <div className='containerBonusCardText'>
     <h1 className="tituloBonusCard">{titulo}</h1>
     <h3 className="subtituloBonusCard">{subtitulo}</h3>
-    <h2 className="valorBonusCard">R$ {valor}</h2>
+    <h3 className="valorBonusCard">de <span>{desconto}</span> por R$ {valor}</h3>
+    </div>
     </div>
     </>
     )
