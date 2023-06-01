@@ -39,10 +39,13 @@ background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%
 
 .containerGarantias{
   display: flex;
+  flex-wrap: wrap;
   
 }
 .containerGarantias img{
-  width: 15rem;
+  display: flex;
+  max-width: 15rem;
+ margin: auto;
 }
 .containerGarantias div{
   margin-left: 2rem;
@@ -67,6 +70,7 @@ background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%
     display: flex;
     flex-direction: column; /* Altera o fluxo de layout para linha */
     justify-content: center;
+    align-items: center;
   }
   .tituloGarantias {
     padding-top: 2rem;

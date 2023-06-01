@@ -8,13 +8,9 @@
   align-items: center;
   justify-content: center;
   background-color: #f0f0f0;
-  padding: 1rem;
   text-align: center;
   z-index: 9999; /* Defina um valor adequado para controlar a ordem de empilhamento */
-
 }
-
-
 
 .countdown-title {
   font-size: 1.5rem;
@@ -30,10 +26,9 @@
 }
 
 .countdown-content p {
-  font-size:0.8rem;
-  
+  font-size: 0.8rem;
 }
-.countdown-container span{
-  color: red;
 
+.countdown-container span {
+  color: red;
 }
