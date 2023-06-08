@@ -1,52 +1,33 @@
-import React, { useEffect } from 'react';
 
 import calculadora from '../../img/cards/calculadora.png'
 import halterofilista from '../../img/cards/halterofilista.png'
 import './Motivos.css';
+import Aos from "aos";
+import "aos/dist/aos.css"
 import Card from '../../components/Card';
+import { useEffect } from 'react';
 
 function Motivos() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const textElements = document.querySelectorAll('.highlight-text');
-
-      textElements.forEach((element) => {
-        const elementTop = element.getBoundingClientRect().bottom;
-        const triggerPoint = window.innerHeight * 1; // Adjust the value to change the activation point
-
-        if (elementTop < triggerPoint) {
-          const scrollPercentage = 1.25 - (elementTop / triggerPoint);
-          const highlightWidth = scrollPercentage * element.offsetWidth;
-
-          element.style.backgroundImage = `linear-gradient(to right, #2C6E49 ${highlightWidth}px, transparent ${highlightWidth}px)`;
-        } else {
-          element.style.backgroundImage = 'none';
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+  useEffect(()=> {
+    Aos.init({ duration: 2000 });
+  },[]);
     
   return (
     <>
-      <div className="fundoMotivos">
-        <h1 className="tituloMotivos">Veja o que você vai aprender no <span className="highlight-text">Deusas da Boa Forma</span></h1>
-        <h2 className="subtituloMotivos">Tudo passo a passo</h2>
-        <div className="cardsMotivos">
-          <Card imagem={calculadora} subtitulo='Calcule as calorias diárias' texto='O passo a passo para você criar campanhas do absoluto ZERO, tudo de forma prática e atual.'/>
-          <Card imagem={halterofilista} subtitulo='Calcule as calorias diárias' texto='O passo a passo para você criar campanhas do absoluto ZERO, tudo de forma prática e atual.'/>
-          <Card imagem='http://via.placeholder.com/150' subtitulo='Calcule as calorias diárias' texto='O passo a passo para você criar campanhas do absoluto ZERO, tudo de forma prática e atual.'/>
-          <Card imagem='http://via.placeholder.com/150' subtitulo='Calcule as calorias diárias' texto='O passo a passo para você criar campanhas do absoluto ZERO, tudo de forma prática e atual.'/>
-          <Card imagem='http://via.placeholder.com/150' subtitulo='Calcule as calorias diárias' texto='O passo a passo para você criar campanhas do absoluto ZERO, tudo de forma prática e atual.'/>
+      <div  className="fundoMotivos">
+        <div className='titulosFundo'>
+        <h1  className="tituloMotivos">Esse guia foi criado baseado na nova metodologia <span>americana de emagrecimento.</span></h1>
+        <h1 className="tituloMotivos">Através de pesquisas, os cientistas descobriram que <span>todos os seres humanos possuem o ‘’fator genético’’</span> do emagrecimento herdado pelos nossos ancestrais...</h1>
+        <h2 className="subtituloMotivos">Dentro desse material, você entenderá exatamente como despertar o <span>fator do emagrecimento natural em você!</span></h2>
         </div>
+        <div  className="cardsMotivos">
+          <Card imagem={calculadora} subtitulo='Aos seus hábitos e rotina' texto=''/>
+          <Card imagem={halterofilista} subtitulo='A como consumir os alimentos de forma correta' texto=''/>
+          <Card imagem='http://via.placeholder.com/150' subtitulo='Como se manter motivada' texto=''/>
+          <Card imagem='http://via.placeholder.com/150' subtitulo='Como fazer exercícios de forma certa' texto=''/>
+          </div>
       </div>
+      <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className='boxDiv'></div>
     </>
   )
 }

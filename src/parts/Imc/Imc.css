@@ -24,7 +24,7 @@
 .calculadoraImc input{
   background: transparent;
   border: 0 none;
-  border-bottom: 0.1rem solid black;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.144);
   width: 4rem;
   outline: 0;
   text-decoration: none;

@@ -7,14 +7,16 @@ background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%
 }
 
 .tituloTop{
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: 0.55rem;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
+
 }
 
 .subtituloTop{
   text-align: center;
+  justify-content: center;
 
 }
 
@@ -22,7 +24,7 @@ background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 @media (max-width: 800px) {
   .imgTop {

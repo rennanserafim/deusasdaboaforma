@@ -50,12 +50,12 @@ function Countdown() {
 
   return (
     <div className={`countdown-container ${visible ? 'visible' : ''}`}>
-      <h1 className="countdown-title">Aproveite a promoção HOJE!</h1>
+      <h1 className="countdown-title">Aproveite a promoção <span>HOJE!</span></h1>
       <div className="countdown-content">
         {visible && (
           <>
-            <p>As condições exclusivas encerram em: {remainingTime}</p>
-            {remainingTime !== 'Promoção encerrada' && <Button  text='Comprar agora!'/>}
+            <p>As condições exclusivas encerram em: <span>{remainingTime}</span></p>
+            {remainingTime !== 'Promoção encerrada' && <Button text='Comprar agora!'/>}
           </>
         )}
       </div>

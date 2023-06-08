@@ -9,21 +9,19 @@ function Garantias() {
   return (
 
     <div className="fundoGarantias">
-  
-    <h1 className="tituloGarantias">Resultado em uma semana, ou o seu dinheiro de volta!</h1>
-    <h3 className="subtituloGarantias"></h3> 
-    <div className='containerGarantias'>
-      <img src={imgGarantia}></img>
-      <div>
-      <h2>Experimente por 7 dias Sem Risco</h2>  
-      <p>Lorem ipsum dolor sit ametcus velit varius vitae. Aenean at est et ipsum viverra vehicula. Nam a lobortis ipsum, vitae gravida magna. Proin quis feugiat odio, vitae pharetra dolor. Proin mollis turpis elit, non tempor quam blandit vitae. Mauris gravida rhoncus justo. Vestibulum suscipit, massa non sagittis volutpat, orci nisl laoreet lectus, non lobortis ipsum massa et eros. Vestibulum vel leo nec lacus aliquam sagittis. Nulla congue nisi odio. Nunc tempor odio nunc, quis laoreet ante lobortis vel. Cras tempus erat tempus, vehicula quam vitae, cursus quam.</p>  
-      <Button text='Comprar agora!'/>
-      </div>
-    
-   
-    </div>  
+      <div className="espacoGarantias">
 
-
+    <img src={imgGarantia} className='imgGarantia'></img>
+    <article className="articleGarantias">
+    <h1 className="tituloGarantias">Não decidiu ainda? Eu te ajudo!</h1>
+    <h2>Pode ficar tranquila, pois você terá 7 dias de garantia! </h2>
+    <p className="textoGarantias">O código de defesa do consumidor (Art.49) garante 7 dias para solicitar reembolso em caso de insatisfação com o produto. Ou seja, você terá 7 dias por minha conta para testar e avaliar o produto. 
+Caso você não se identifique com o nosso projeto, você só precisará mandar uma simples mensagem dentro dos 7 dias da garantia que nós iremos devolver totalmente o seu valor investido!
+Tem alguma dúvida específica? Fale diretamente conosco através do Whatsapp:
+</p>
+    <Button text='Chame no Whats'></Button>
+    </article>
+    </div>
     </div>
 
   );

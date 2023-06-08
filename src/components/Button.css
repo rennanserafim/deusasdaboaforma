@@ -1,6 +1,6 @@
 .queroEmagrecerAgora{
     box-sizing: border-box;
-
+    font-size: 1.25rem;
     font-family: 'Raleway';
     font-weight: 700;
     color: white;
@@ -11,12 +11,14 @@
     padding: 0.75rem 1.25rem;
     border: none;
     transition: 0.5s;
-    margin: 1rem;
+    margin-top: 1.5rem;
+    /* max-width: 15rem; */
 
 }
 .queroEmagrecerAgora:hover{
     transform: scale(1.25);
     cursor: pointer;
+
 
 
 }

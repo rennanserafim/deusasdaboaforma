@@ -10,17 +10,29 @@ import './SimpleAccordion.css'
 export default function SimpleAccordion() {
   const accordionItems = [
     {
-      title: "O que é o metodo?",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+      title: "Depois da compra, como posso acessar o material?",
+      content: "É muito simples, você receberá um e-mail da Hotmart com o acesso ao material. Basta você entrar na plataforma e baixar os arquivos."
     },
     {
-      title: "Posso pedir reembolso?",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+      title: "Todos os produtos são digitais?",
+      content: "Isso mesmo! Todos os produtos estão em formato PDF. Portanto, você pode acessar no seu computador, tablet ou celular."
     },
     {
-      title: "Eu emagreço quantos quilos?",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget"
-    }
+      title: "Isso funciona mesmo?",
+      content: "Várias alunas comprovam a eficácia do nosso método."
+    },
+    {
+      title: "Quantos quilos perderei em 4 semanas?",
+      content: "Depende da sua disciplina! Se você seguir à risca o plano proposto, você perderá muitos quilos de forma rápida."
+    },
+    {
+      title: "E se eu me arrepender da compra?",
+      content: "É simples, basta mandar uma mensagem para nossa equipe dentro dos 7 dias da garantia que nós devolveremos todo o seu dinheiro de volta!"
+    },
+    {
+      title: "Existe algum suporte?",
+      content: "Claro, existe sim! Estamos à disposição para ajudar e tirar qualquer dúvida das nossas alunas!"
+    },
   ];
 
   return (

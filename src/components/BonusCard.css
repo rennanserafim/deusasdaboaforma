@@ -1,11 +1,14 @@
 .tituloBonusCard{
-  color: white;
+  color: #2C6E49;
 }
 .subtituloBonusCard{
-  color: white;
+  color: #2C6E49;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.75rem 0;
 }
 .valorBonusCard{
-  color: white;
+  color: #2C6E49;
 }
 .valorBonusCard span{
     text-decoration: line-through;
@@ -18,18 +21,24 @@
   display: flex;
   align-items: center; 
   justify-content: center; 
-  height: 50px;
-  width:auto;
+  height: auto;
+  width:7rem;
   text-align: center;
+
+
 }
 .fundoBonusCard{
  display: flex; 
   margin: 2rem;
+  background:#F6F6F6 ;
+  padding: 2rem;
+  width: 23rem;
+  border-radius: 0.75rem;
 }
 .containerBonusCardText{
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 .containerBonusCard{
   display: flex;

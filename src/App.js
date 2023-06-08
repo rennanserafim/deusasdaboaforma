@@ -1,6 +1,7 @@
 
 import './App.css';
 import Countdown from './components/Countdown/Countdown';
+import Share from './components/Share/Share';
 
 import Bonus from './parts/Bonus/Bonus';
 import Depoimentos from './parts/Depoimentos/Depoimentos';
@@ -30,6 +31,7 @@ function App() {
   <Bonus/>
   <Faq/>
   <Finish/>
+
   
 
 

@@ -1,17 +1,23 @@
 .fundoMotivos{
   padding: 10rem 0;
   width: 100%;
-  background: linear-gradient(180deg, #91BE56 0%, #90BF58 2.08%, #58DCA4 100%);
+  background: #2C6E49;
+  
 }
+
+
 
 .tituloMotivos{
   color: white;
   text-align: center;
   margin-bottom: 1.25rem;
+  
 }
 .tituloMotivos span{
-  padding: 0.5rem;
-  border-radius: 0.2rem;
+  background: black;
+}
+.subtituloMotivos span{
+  background: black;
 }
 
 .subtituloMotivos{
@@ -28,6 +34,25 @@
   justify-content: center;
   font-weight: 900;
 
+}
+
+.highlight-text {
+  display: inline-block;
+  position: relative;
+}
+
+.highlight-text.highlight {
+  background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)); /* Defina a cor e opacidade desejadas para o marca texto */
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 100% 5px; /* Ajuste a altura do marca texto conforme necessário */
+  transition: background-size 0.3s ease-in-out; /* Adicione uma transição suave */
+}
+
+.boxDiv{
+  background-color: black;
+  height: 5rem;
+  width: 5rem;
 }
 
 @media (max-width: 800px) {
