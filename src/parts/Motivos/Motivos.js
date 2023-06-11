@@ -27,7 +27,7 @@ function Motivos() {
           <Card imagem='http://via.placeholder.com/150' subtitulo='Como fazer exercícios de forma certa' texto=''/>
           </div>
       </div>
-      <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className='boxDiv'></div>
+    
     </>
   )
 }

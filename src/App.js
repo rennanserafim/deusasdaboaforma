@@ -14,6 +14,7 @@ import Motivos from './parts/Motivos/Motivos';
 
 
 import Oquee from './parts/Oquee/Oquee';
+import Resumo from './parts/Resumo/Resumo';
 import Top from './parts/Top/Top';
 
 
@@ -24,11 +25,14 @@ function App() {
   <Top/>
   <Oquee/>
   <Motivos/>
-  <Countdown/>
   <Imc/>
   <Depoimentos/>
+  {/* <Countdown/> */}
+
+
   <Garantias/>
   <Bonus/>
+  <Resumo/>
   <Faq/>
   <Finish/>
 

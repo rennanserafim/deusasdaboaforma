@@ -1,19 +1,21 @@
 .tituloBonusCard{
   color: #2C6E49;
+  text-align: left;
+  font-size: 1.25rem;
 }
 .subtituloBonusCard{
   color: #2C6E49;
   font-size: 1rem;
-  text-align: left;
+  text-align: justify;
   padding: 0.75rem 0;
 }
 .valorBonusCard{
   color: #2C6E49;
 }
 .valorBonusCard span{
-    text-decoration: line-through;
-    text-decoration-style:solid;
-    /* text-decoration-color: aqua; */
+      text-decoration: line-through;
+      text-decoration-style:solid;
+      /* text-decoration-color: aqua; */
   
   }
 
@@ -22,8 +24,9 @@
   align-items: center; 
   justify-content: center; 
   height: auto;
-  width:7rem;
+  width:12rem;
   text-align: center;
+  margin: 2rem;
 
 
 }
@@ -32,17 +35,40 @@
   margin: 2rem;
   background:#F6F6F6 ;
   padding: 2rem;
-  width: 23rem;
+  width: 55rem;
   border-radius: 0.75rem;
+
 }
 .containerBonusCardText{
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
+  flex-wrap: wrap;
+  text-align: justify;
+ 
 }
 .containerBonusCard{
   display: flex;
   align-items: center;
   justify-content: center; 
-  text-align: center;
+  
+}
+
+@media (max-width: 800px) {
+  .containerBonusCardText{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+  }
+
+  .fundoBonusCard{
+    display: flex; 
+     margin: 1.25rem;
+     background:#F6F6F6 ;
+     padding: 1.2rem;
+     width: 20rem;
+     border-radius: 0.75rem;
+     flex-direction: column;
+   
+   }
 }

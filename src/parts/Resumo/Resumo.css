@@ -1,4 +1,4 @@
-.fundoTop{
+.fundoResumo{
   padding-top: 2rem;
   width: 100%;
   background: rgb(88,220,164);
@@ -6,42 +6,52 @@ background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%
   
 }
 
-.tituloTop{
-  color: rgb(255, 255, 255);
+.tituloResumo{
   text-align: center;
+  color:#444444;
   margin: 0.55rem;
   font-size: 1.75rem;
 
 }
 
-.subtituloTop{
-  text-align: center;
-  justify-content: center;
+.subtituloResumo{
+  text-align: left;
+  /* font-weight: lighter; */
+  color: rgb(255, 255, 255)
+
 
 }
 
-.imgTop{
+.listResumo {
+
+  list-style: none;
+  padding: 2rem;
+}
+
+.fundoResumo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valorResumo{
+  margin: 3rem;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.imgResumo{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 3rem;
 
 }
-
-.divButton{
-  text-align: center;
-}
 @media (max-width: 800px) {
-  .imgTop {
-    height: auto;
-    justify-content: center;
-  }
-  .imgTopDiv{
-    width: 20rem;
-    height: auto;
-    justify-content: center;  
-  }
-  .subtituloTop {
+
+  .subtituloResumo{
     padding: 0.75rem;
     display: flex;
     text-align: center;

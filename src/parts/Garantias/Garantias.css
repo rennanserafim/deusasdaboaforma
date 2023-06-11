@@ -46,6 +46,18 @@
 
   
 }
+.subtituloGarantias{
+  display: flex;
+  color: #2C6E49  ;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 1.25rem;
+  font-size: 1.25rem;
+
+
+
+  
+}
 
 .textoGarantias{
   display: flex;

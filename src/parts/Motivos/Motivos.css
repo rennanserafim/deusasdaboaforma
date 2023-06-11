@@ -2,6 +2,7 @@
   padding: 10rem 0;
   width: 100%;
   background: #2C6E49;
+
   
 }
 
@@ -14,10 +15,14 @@
   
 }
 .tituloMotivos span{
-  background: black;
+  background: rgba(88,220,164,1) 0%;
+  color: black;
+  padding: 0.1rem;
 }
 .subtituloMotivos span{
-  background: black;
+  background: rgba(88,220,164,1) 0%;
+  color: black;
+  padding: 0.1rem;
 }
 
 .subtituloMotivos{

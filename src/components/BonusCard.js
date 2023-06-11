@@ -12,7 +12,7 @@ function  BonusCard({imagem,titulo,desconto,subtitulo,valor}) {
    <div className='containerBonusCardText'>
     <h1 className="tituloBonusCard">{titulo}</h1>
     <h3 className="subtituloBonusCard">{subtitulo}</h3>
-    <h3 className="valorBonusCard">de <span>{desconto}</span> por R$ {valor}</h3>
+    <h3 className="valorBonusCard"><strong>Avaliado em R${valor}</strong></h3>
     </div>
     </div>
     </>
