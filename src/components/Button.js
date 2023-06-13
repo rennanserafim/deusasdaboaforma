@@ -25,7 +25,7 @@ function Button({text}) {
 
   return (
     <button className={`queroEmagrecerAgora ${showButton ? 'visible' : ''}`}>
-      ✔ {text}
+     <a href='https://pay.hotmart.com/L74368306E'> ✔ {text}</a>
     </button>
   );
 }
