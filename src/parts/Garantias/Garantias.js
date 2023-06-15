@@ -11,7 +11,7 @@ function Garantias() {
     <div className="fundoGarantias">
       <div className="espacoGarantias">
 
-    <img src={imgGarantia} className='imgGarantia'></img>
+    <img src={imgGarantia} className='imgGarantia' alt='7diasgarantia'></img>
     <article className="articleGarantias">
     <h1 className="tituloGarantias">Não decidiu ainda? Eu te ajudo!</h1>
     <h1 className='subtituloGarantias'>Pode ficar tranquila, pois você terá 7 dias de garantia! </h1>

@@ -7,7 +7,7 @@ function  BonusCard({imagem,titulo,desconto,subtitulo,valor}) {
     <div className='fundoBonusCard'>
      <div className='containerBonusCard'>
 
-      <img src={imagem}  className='imagemCard'></img>
+      <img src={imagem}  className='imagemCard' alt={imagem}></img>
     </div>
    <div className='containerBonusCardText'>
     <h1 className="tituloBonusCard">{titulo}</h1>
