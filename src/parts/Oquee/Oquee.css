@@ -54,10 +54,20 @@
 
 .textoOquee{
   display: flex;
-  padding: 2rem;
-  text-align: justify;
-  justify-content: flex-start;
+  text-indent: 1rem;
+  padding: 0.75rem;
   flex-wrap: wrap;
+
+
+
+
+}
+
+.textoOquee strong{
+  text-indent: 0;
+  color:#2C6E49;
+  font-weight: 900;
+
 
 
 
