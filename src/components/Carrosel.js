@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 import './Carrosel.css'
-import img1 from '../img/carrosel/img1.jpg'
-import img2 from '../img/carrosel/img2.jpg'
-import img3 from '../img/carrosel/img3.jpg'
-import img4 from '../img/carrosel/img4.jpg'
-import img5 from '../img/carrosel/img5.jpg'
+import img1 from '../img/carrosel/img1.jpeg'
+import img2 from '../img/carrosel/img2.jpeg'
+import img3 from '../img/carrosel/img3.jpeg'
+import img4 from '../img/carrosel/img4.jpeg'
+import img5 from '../img/carrosel/img5.jpeg'
 
 
 import { useEffect, useRef, useState } from 'react'

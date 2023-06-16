@@ -7,18 +7,27 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem 0.75rem;
     text-align: center;
-    max-width: 8rem;
+    max-width: 15rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem;
   }
   
+  .contentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
   .card-img {
 
     width: 2.5rem;
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1.75rem;
     justify-content: center;
     text-align: center;
 
@@ -26,15 +35,26 @@
   
   .card-subtitulo {
     display: flex;  
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card-titulo {
+    display: flex;  
     font-size: 1rem;
     margin-bottom: 0.5rem;
     justify-content: center;
     text-align: center;
+    color: #2C6E49;
   }
   
   .card-texto {
  
     font-size:0.75rem;
     color: #555;
+    padding: 1rem;
+    text-align: justify;
     justify-content: center
   }
