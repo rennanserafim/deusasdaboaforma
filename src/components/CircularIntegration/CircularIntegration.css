@@ -1,0 +1,68 @@
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 40rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	background-color: #eee;
+}
+
+.progressPercent{
+	font-weight: 600;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+.btn{
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: white;
+  background: #D68C45;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  transition: 0.5s;
+  margin: 2rem 0;
+}
+
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.25);
+  
+}
+
+.link{
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: white;
+  background: #2C6E49;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  transition: 0.5s;
+  margin: 2rem 0;
+
+}
+
+.link:hover{
+  transform: scale(1.25);
+}

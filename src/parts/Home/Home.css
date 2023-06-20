@@ -1,0 +1,41 @@
+.fundoTop{
+  display: flex;
+    height: 100vh;
+    flex-direction: column;
+  
+    justify-content: center;
+  
+    background: rgb(88,220,164);
+  background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%);
+  align-items: center;
+    
+  }
+  
+  .tituloTop{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 7rem;
+  
+  }
+  
+  .subtituloTop{
+    text-align: center;
+    justify-content: center;
+  
+  }
+  
+  .imgTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  
+  }
+  
+  .divButton{
+    text-align: center;
+  }
+  

@@ -1,0 +1,46 @@
+.fundoTop{
+    padding-top: 2rem;
+    width: 100%;
+    background: rgb(88,220,164);
+  background: linear-gradient(9deg, rgba(88,220,164,1) 0%, rgba(145,190,86,1) 100%);
+    
+  }
+  
+  .tituloTop{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0.55rem;
+    font-size: 1.75rem;
+  
+  }
+  
+  .subtituloTop{
+    text-align: center;
+    justify-content: center;
+  
+  }
+  
+  .imgTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+  
+  }
+  
+  .divButton{
+    text-align: center;
+  }
+  @media (max-width: 800px) {
+   .imgTopDiv{
+      width: 20rem;
+      height: auto;
+      justify-content: center;  
+    }
+    .subtituloTop {
+      padding: 0.75rem;
+      display: flex;
+      text-align: center;
+    }
+  }
+  
