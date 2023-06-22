@@ -70,7 +70,7 @@ function Imc() {
             onChange={(e) => setAltura(e.target.value)}
             className='inputImc inputWithoutUnderline' // Adicione a classe CSS personalizada
           />
-          
+          m
         </label>
         {mostrarIMC && <h2 className='labelImc'>IMC: {resultado}</h2>}
         {mostrarBotaoRefazer ? (

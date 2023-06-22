@@ -1,18 +1,16 @@
-import './App.css';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Presell from '../src/parts/Presell/Presell';
 import AppSecond from './AppSecond';
-
-
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
-   
-        <Route path="second" element={<AppSecond/>} />
-        
+        <Route path="/" element={<Presell />} />
+        <Route path="/second" element={<AppSecond />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

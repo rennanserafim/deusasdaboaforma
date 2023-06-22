@@ -12,7 +12,7 @@ function Home() {
     <div className='fundoTop'>
     <BrowserRouter>
     <CircularIntegration />
-    <Link to='/test'>AA</Link>
+    <Link to='/second'>AA</Link>
   </BrowserRouter>
   </div>
 

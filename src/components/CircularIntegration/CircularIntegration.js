@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './CircularIntegration.css';
-import Button from '../Button';
-import AppSecond from '../../AppSecond';
 
 export default function CircularIntegration() {
   const [filled, setFilled] = useState(0);
@@ -15,10 +12,11 @@ export default function CircularIntegration() {
     }
   }, [filled, isRunning]);
 
+  const progressBarClassName = `progressbar ${isRunning ? 'progressbar--active' : ''}`;
+
   return (
-  
     <div>
-      <div className="progressbar">
+      <div className={progressBarClassName}>
         <div
           style={{
             height: '100%',
@@ -31,14 +29,11 @@ export default function CircularIntegration() {
       </div>
       <div className="buttonContainer">
         {filled === 100 ? (
-
-         <Link to="/second"  className="link">Link</Link>
-
+          <Link to="/second" className="link">Compre agora</Link>
         ) : (
-          <button className="btn" onClick={() => setIsRunning(true)}>Run</button>
+          <button className="btn" onClick={() => setIsRunning(true)}>Clique para verificar disponibilidade!</button>
         )}
       </div>
     </div>
-
   );
 }
