@@ -1,16 +1,16 @@
 .progressbar{
 	position: relative;
 	overflow: hidden;
-	height: 3rem;
+	width: 40rem;
+	height: 2rem;
 	border-radius: 0.5rem;
+  margin: 1rem;
 	background-color: #eee;
 }
 
-
 .progressPercent{
-  position: absolute;
 	font-weight: 600;
-	display: flex;
+	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
@@ -32,13 +32,13 @@
   font-weight: 700;
   color: white;
   background: #D68C45;
-  border-bottom: 1rem solid rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 0.5rem 1.25rem rgba(0, 0, 0, 0.19);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.19);
   border-radius: 0.75rem;
   padding: 0.75rem 1.25rem;
   border: none;
   transition: 0.5s;
-  margin: 2rem;
+  margin: 2rem 2rem;
 }
 
 .btn:hover{
@@ -54,13 +54,13 @@
   font-weight: 700;
   color: white;
   background: #2C6E49;
-  border-bottom: 1rem solid rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 0.5rem 1.25rem rgba(0, 0, 0, 0.19);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.19);
   border-radius: 0.75rem;
-  padding: 1rem 1.75rem;
+  padding: 0.75rem 1.25rem;
   border: none;
   transition: 0.5s;
-  margin: 2rem;
+  margin: 2rem 0;
 
 }
 
@@ -68,8 +68,16 @@
   transform: scale(1.25);
 }
 
-@media screen and (max-width: 768px) {
-  .progressbar {
+@media (max-width: 800px) {
+  .progressbar{
+
+    width: 10rem;
 
   }
-}
+
+  .btn{
+    width: 2rem;;
+  }
+  
+ }
+ 
