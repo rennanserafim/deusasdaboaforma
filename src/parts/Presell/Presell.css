@@ -1,17 +1,26 @@
 .fundoTopPresell {
   padding-top: 2rem;
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   background: rgb(88, 220, 164);
   background: linear-gradient(9deg, rgba(88, 220, 164, 1) 0%, rgba(145, 190, 86, 1) 100%);
   display: flex;
   align-items: center;
   flex-direction: column;
 
+
+}
+
+.divConjuntoPresell{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
 }
 
 .divImgPresell {
-  margin: 5rem;
+  margin: 1rem;
 }
 
 .imgTopPresell {
@@ -22,19 +31,29 @@
   display: flex;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 5rem;
-  font-size: 3rem;
+  margin: 1rem;
+  font-size: 1.5rem;
   text-shadow: 0 0 35px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subtituloTopPresell{
+  display: flex;
+  color: rgb(255, 255, 255);
   text-align: center;
+  margin: 1rem;
+  font-size: 1.25rem;
+  text-shadow: 0 0 35px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 @media screen and (max-width: 768px) {
-  .tituloTopPresell {
-    margin: 1.25rem; /* Ajusta a margem inferior para dispositivos menores */
-    font-size: 1.25rem; /* Ajusta o tamanho da fonte para dispositivos menores */
-  }
+
   .btn {
     margin: 0; /* Remove as margens do botão em dispositivos móveis */
   }
+
 }

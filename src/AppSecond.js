@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import Countdown from './components/Countdown/Countdown';
+
 import Share from './components/Share/Share';
 
 import Bonus from './parts/Bonus/Bonus';
@@ -24,7 +24,6 @@ function AppSecond() {
         <Motivos />
         <Imc />
         <Depoimentos />
-        <Countdown />
 
         <Garantias />
         <Bonus />

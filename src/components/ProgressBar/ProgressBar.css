@@ -1,0 +1,45 @@
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 15rem;
+	height: 3rem;
+	border-radius: 1rem;
+	background-color: #eee;
+	margin: 2rem;
+}
+
+.progressPercent{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.btnFirst{
+	display: flex;
+	margin: 3rem auto;
+	border: none;
+	border-radius: 0.5rem;     
+	outline: none;
+	height: 3rem;
+	background-color: #D68C45;
+	transition: box-shadow 0.5s;
+	font-size: 1.25rem;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	align-items: center;
+	padding: 1.25rem;
+	
+}
+
+
+.btnFirst:hover{
+	-webkit-box-shadow: inset 20rem 0 0 0 #a36a35;
+    box-shadow: inset 20rem 0 0 0 #a36a35;
+}
