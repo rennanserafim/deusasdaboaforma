@@ -12,7 +12,7 @@ function Presell() {
          <img src={imgOquee} className='vslVideo'></img>
          </div>
          <div className='divConjuntoPresell'>
-         <h1 className='tituloTopPresell'>Você está prestes a comprar o Deusas da Boa forma</h1>
+         <h1 className='tituloTopPresell'>Você está prestes a se tornar uma Deusa da Boa forma</h1>
          <h1 className='subtituloTopPresell'>Verifique se ainda há vagas!</h1>
         <div className='imgTopPresell'>
         <ProgressBar/>
