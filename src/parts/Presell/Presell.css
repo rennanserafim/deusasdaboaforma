@@ -7,9 +7,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-
-
+  /* position: fixed; */
+  top: 0;
+  left: 0;
 }
+
 
 .divConjuntoPresell{
   display: flex;
@@ -21,10 +23,13 @@
 
 .divImgPresell {
   margin: 1rem;
+  width: 15rem;
+  text-align: center;
 }
 
 .imgTopPresell {
   margin: 0 auto;
+  text-align: center;
 }
 
 .tituloTopPresell {
@@ -54,6 +59,10 @@
 
   .btn {
     margin: 0; /* Remove as margens do botão em dispositivos móveis */
+  }
+  .divImgPresell {
+    margin: 1rem;
+    width: 15rem;
   }
 
 }
